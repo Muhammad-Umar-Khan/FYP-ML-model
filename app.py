@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 import numpy as np
 import cv2
-from tensorflow import keras
-from tensorflow.keras.models import load_model,save_model
+import keras
+from keras.models import load_model,save_model
 from skimage.io import imread, imshow
 from skimage.transform import resize
 from skimage.feature import hog
